@@ -1,6 +1,13 @@
 # PyBool
 
-Write `or`, `and` and `not` instead of `||`, `&&` and `!`
+Write `or`, `and` and `not` instead of `||`, `&&` and `!` in rust!
+
+This is the same as in C:
+```C
+#define and &&
+#define or ||
+#define not !
+```
 
 # Usage
 ```rust
