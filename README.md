@@ -27,5 +27,5 @@ pybool!(not false) == true
 
 // You probably want to use a shorter name
 use pybool::pybool as b;
-b!((false or !(false or true)) and !false) == false
+b!((false or not (false or true)) and not false) == false
 ```
